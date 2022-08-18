@@ -1,11 +1,123 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8"></meta>
+        <!-- 下面那行表達的是網頁的編碼-->
+        <!-- mate標籤更多網頁資訊-->
+        <meta charset="UTF-8"/>
+        <!-- description 網頁的描述-->
+        <meta name="description" content="Kyrie的網站,裡面有很多影片"/>
+        <!-- author 作者-->
+        <meta name="author" content="Kyrie"/>
+        <!-- keywords 關鍵字-->
+        <meta name="keywords" content="Kyrie html 教學"/>
+        <!-- viewport 根據裝置大小等比調整-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Kyrie home</title>
     </head>
     
     <body>
-        hello Kyrie
+        <!-- 基本標籤 -->
+        <h1>SFIS介紹</h1>
+        <h2>里歐李</h2>
+        <p><i><b>絕技‧廬山昇龍霸</b></i></p>
+        <img src="leo.jpg"  height="400" />
+        <hr/>
+        <h2>曾。富總</h2>
+        <p><i>呵呵嘴砲魔人</i></p>
+
+        <!-- 連結 & 圖片 -->
+        <img src="fufu.png" width="400" height="400"/>
+        <a href="https://www.baidu.com/">baidu</a>
+        <a href="page2.html">第二頁</a>
+        <a href="dir/page3.html">第三頁</a>
+        <a href="leo.jpg">leo</a>
+
+        <!-- 影片 -->
+        <video src="taylor.mp4" controls width="400">瀏覽器無法載入影片</video>
+
+        <!-- 列表 -->
+        <ol type="A">
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+        </ol>
+
+        <table width="400" style="color:red;">
+            <tr>
+                <td>日期</td>
+                <td>數學</td>
+                <td>英文</td>
+            </tr>
+            <tr>
+                <td>2/8</td>
+                <td>80</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>2/9</td>
+                <td>90</td>
+                <td>80</td>
+            </tr>
+        </table>
+
+        <!-- html的容器 div & span-->
+
+        <div>
+            <ol type="A">
+                <li>google</li>
+                <li>facebook</li>
+                <li>ig</li>
+            </ol>
+    
+            <table width="400">
+                <tr>
+                    <td>日期</td>
+                    <td>數學</td>
+                    <td>英文</td>
+                </tr>
+                <tr>
+                    <td>2/8</td>
+                    <td>80</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>2/9</td>
+                    <td>90</td>
+                    <td>80</td>
+                </tr>
+            </table>
+        </div>
+
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <hr/>
+        <p>你好</p>
+        <p>哈哈</p>
+        <!-- span1 & div-->
+        <span>span1</span>
+        <span>span2</span>
+        <hr/>
+        <div>div1</div>
+        <div>div2</div>
+        <!-- html輸入標籤-->
+        <input type="text" placeholder="請輸入帳號"/>
+        <br/>
+        <br/>
+        <input type="password" placeholder="請輸入密碼"/>
+        <br/>
+        <br/>
+        <input type="date"/>
+        <br/>
+        <br/>
+        <input type="range"/>
+        <br/>
+        <br/>
+        <input type="file"/>
+        <br/>
+        <br/>
+        <input type="checkbox"/>
+        <br/>
+        <br/>
+        <textarea>哈哈</textarea>
     </body>
 </html>
